@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(53, 53, 53);
+    text-align: center;
+    height: 50px;
+}
+header h1{
+    color: #ffffff;
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20pt;
+}
+.slider{
+    background-color: rgb(255, 168, 68);
+    height: 200px;
+    text-align: center;
+}
+.slider h1{
+    color: rgb(255, 255, 255);
+    padding-top: 60px;
+    font-size: 50pt;
+    font-family: monospace;
+    text-transform: uppercase;
+    letter-spacing: 10pt;
+    font-weight: lighter;
+}
+.article{
+    overflow: hidden;
+}
+
+.left{
+    background-color: tomato;
+    float: left;
+    width: 50%;
+    height: 600px;
+    overflow: hidden;
+}
+.right{
+    background-color: rgb(80, 64, 224);
+    float: right;
+    text-align: center;
+    width: 50%;
+    height: 600px;
+}
+.right h1{
+    color: white;
+    padding-top: 270px;
+
+}
+.left-top{
+    background-color: violet;
+    height: 300px;
+    text-align: center;
+    
+}
+.left-top h1{
+    color: #ffffff;
+    padding-top: 125px;
+}
+.left-bottom{
+    background-color: crimson;
+    height: 300px;
+    text-align: center;
+    
+}
+.left-bottom h1{
+    color: cornsilk;
+    text-align: center;
+    padding-top: 125px;
+}
+footer{
+    background-color: rgb(26, 26, 26);
+    height: 200px;
+    text-align: center;
+    text-transform: uppercase;
+}
+footer h1{
+    color: #ffffff;
+    padding-top: 85px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 10pt;
+}
